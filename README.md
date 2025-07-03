@@ -31,3 +31,11 @@ optional arguments:
 
 # Demo 
 ![wappy](https://user-images.githubusercontent.com/57899332/141133098-906e9ac0-b85e-453d-9e16-f48b4c14303c.gif)
+
+## Bulk Adyen detection
+
+Use `adyen_checker.py` to classify large lists of domains:
+
+```bash
+$ adyen_checker.py -i domains.txt --workers 8 --goods goods.txt --bads bads.txt
+```
